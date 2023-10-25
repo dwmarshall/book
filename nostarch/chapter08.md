@@ -603,7 +603,7 @@ let hello = String::from("Hola");
 In this case, `len` will be `4`, which means the vector storing the string
 `"Hola"` is 4 bytes long. Each of these letters takes one byte when encoded in
 UTF-8. The following line, however, may surprise you (note that this string
-begins with the capital Cyrillic letter *Ze*, not the Arabic number 3):
+begins with the capital Cyrillic letter *Ze*, not the Arabic numeral 3):
 
 ```
 let hello = String::from("Здравствуйте");
